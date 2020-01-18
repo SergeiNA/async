@@ -6,8 +6,6 @@ else()
     project(async VERSION 7.7.7)
 endif()
 
-project(async)
-
 set(CMAKE_CXX_STANDARD 17)
 
 find_package(Threads REQUIRED)
